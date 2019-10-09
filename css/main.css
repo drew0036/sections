@@ -13,6 +13,7 @@ html {
 body {
   vertical-align: middle;
   margin: 0;
+  padding: 2em 0;
 }
 
 img {
@@ -23,6 +24,8 @@ img {
 .image {
   display: inline-block;
   max-width: 25em;
+  padding: 0 1em;
+  vertical-align: middle;
 }
 
 section {
@@ -30,10 +33,9 @@ section {
   vertical-align: middle;
 }
 
-div {
+.text {
   display: inline-block;
   max-width: 25em;
-  padding: 1em;
   text-align: left;
   vertical-align: middle;
 }
