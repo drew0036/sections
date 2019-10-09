@@ -13,7 +13,7 @@ html {
 body {
   vertical-align: middle;
   margin: 0;
-  padding: 2em 0;
+  padding: 3em 1em;
 }
 
 img {
@@ -24,12 +24,10 @@ img {
 .image {
   display: inline-block;
   max-width: 25em;
-  padding: 0 1em;
   vertical-align: middle;
 }
 
 section {
-  padding: 2em 0;
   vertical-align: middle;
 }
 
@@ -38,6 +36,8 @@ section {
   max-width: 25em;
   text-align: left;
   vertical-align: middle;
+  padding: 1em 0 2em;
+  margin: 1.5rem;
 }
 
 .btn {
