@@ -10,8 +10,18 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  vertical-align: middle;
+  margin: 0;
+}
+
 img {
-  display: inline-block;
+  display: block;
+  width: 25em;
+}
+
+.image {
+  display: inline;
 }
 
 section {
@@ -22,21 +32,22 @@ div {
   display: inline-block;
   max-width: 25em;
   padding: 1em;
+  text-align: left;
 }
 
 h2 {
-padding: 1em 0;
+  padding: 1em 0;
 }
 
 p {
-padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 .btn {
-border: 3px solid #333;
-padding: .4em .75em .5em;
-border-radius: 4px;
-text-decoration: none;
-color: #666;
-text-align: center;
+  border: 3px solid #333;
+  padding: .4em .75em .5em;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #666;
+  text-align: center;
 }
