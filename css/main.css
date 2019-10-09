@@ -46,3 +46,8 @@ div {
   color: #666;
   text-align: center;
 }
+
+a:hover {
+  background-color: #666;
+  color: #fff;
+}
