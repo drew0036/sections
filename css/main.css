@@ -16,12 +16,13 @@ body {
 
 section {
   text-align: center;
+  padding: 2em 0;
 }
 
 img {
   display: block;
   width: 100%;
-  padding: 3em 1em 1em;
+  padding: 1em 1em 0;
 }
 
 .image {
@@ -40,6 +41,7 @@ img {
 
 p {
   margin-bottom: 1.5rem;
+  padding: .5em 0 0;
 }
 
 h1 {
@@ -52,9 +54,10 @@ h1 {
   padding: .4em .75em .5em;
   border-radius: 10px;
   text-decoration: none;
-  color: #666;
+  color: #333;
   text-align: center;
   font-weight: normal;
+  margin-bottom: 2rem;
 }
 
 a:hover {
